@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+option java_multiple_files = false;
+option java_package = "com.example.gen";
+option java_outer_classname = "RecordValue";
+
+message AccountSnapshot {
+  int64 ds = 1 ;
+  string instance = 2;
+  string market_type = 3;
+  int64 event_time = 4;
+  int64 log_time = 5;
+
+  double total_value = 11;
+  double cash = 12;
+  double frozen_cash = 19;
+  double daily_pnl = 18;
+  double market_value = 13;
+  double margin = 14;
+  double commission = 15;
+  double server_margin = 16;
+  double server_commission = 17;
+}
+
+message Trade {
+  int64 ds = 1 ;
+  string instance = 2;
+  string market_type = 3;
+  string trade_id = 4;
+  int64 event_time = 5;
+  int64 log_time = 6;
+
+  string order_ref = 11;
+  string code = 12;
+  string direction = 13;
+  string offset = 14;
+  double value = 15;
+  double price = 16;
+  double volume = 17;
+}
+
+message ElixirInstrument {
+  message Row {
+    string code = 1;
+    repeated double data = 2;
+  }
+
+  int64 ds = 1;
+  string instance = 2;
+  string market_type = 3;
+  int64 event_time = 4 ;
+  int64 log_time = 5;
+
+  repeated string columns = 11 ;
+  repeated Row rows = 12 ;
+}
