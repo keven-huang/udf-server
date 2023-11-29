@@ -1,0 +1,119 @@
+// Copyright 2023 RisingWave Labs
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package com.example;
+
+import com.google.gson.Gson;
+import com.risingwave.functions.DataTypeHint;
+import com.risingwave.functions.PeriodDuration;
+import com.risingwave.functions.ScalarFunction;
+import com.risingwave.functions.TableFunction;
+import com.risingwave.functions.UdfServer;
+// import com.example.gen.RecordKey;
+// import com.example.gen.RecordValue;
+// import com.google.protobuf.InvalidProtocolBufferException;
+import java.io.IOException;
+import java.nio.ByteBuffer; 
+
+public class ProtoDecodeUdf {
+    public static void main(String[] args) throws IOException {
+        try (var server = new UdfServer("0.0.0.0", 8815)) {
+            server.addFunction("int_42", new Int42());
+            // server.addFunction("proto_header_decode", new ProtoHeaderDecode());
+            // server.addFunction("proto_decode_snapshot", new ProtoSnapShotDecode());
+            // server.addFunction("proto_decode_trade", new ProtoTradeDecode());
+            // server.addFunction("proto_decode_elixirinstrument", new ProtoElixirInstrumentDecode());
+            server.start();
+            server.awaitTermination();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public static class Int42 implements ScalarFunction {
+        public int eval() {
+            return 42;
+        }
+    }
+    // public static class ProtoHeaderDecode implements ScalarFunction {
+    //     public static class ProtoHeader{
+    //         public String stream;
+    //         public byte[] recordData; 
+    //     }
+    //     public ProtoHeader eval(byte[] binaryData) {
+    //         try {
+    //           var protoData = RecordKey.DataKey.parseFrom(binaryData);
+    //           ProtoHeader header = new ProtoHeader();
+    //           header.stream = protoData.getStream();
+    //           int dataKeySize = protoData.getSerializedSize();
+    //           int byteLength = binaryData.length - dataKeySize;
+    //           header.recordData = new byte[byteLength];
+    //           System.arraycopy(binaryData, dataKeySize, header.recordData, 0, header.recordData.length);
+    //           return header;
+    //         } catch (InvalidProtocolBufferException e) {
+    //           e.printStackTrace();
+    //           return new ProtoHeader();
+    //         }
+    //     }
+    // }
+    // {"account_snapshot", "trade", "elixir_instrument"}
+    // public static class ProtoSnapShotDecode implements ScalarFunction {
+    //     public static class accountSnapshot {
+    //         public Long ds;
+    //         public String instance;
+    //         public String marketType;
+    //         public Long eventTime;
+    //         public Long logTime;
+    //         public Double totalValue;
+    //         public Double cash;
+    //         public Double frozenCash;
+    //         public Double dailyPnl;
+    //         public Double marketValue;
+    //         public Double margin;
+    //         public Double commission;
+    //         public Double serverMargin;
+    //         public Double serverCommission;
+    //     }
+    //     public RecordValue.AccountSnapshot eval(byte[] data) {
+    //         try {
+    //           var snapshotData = RecordValue.AccountSnapshot.parseFrom(data);
+    //           return snapshotData;
+    //         } catch (InvalidProtocolBufferException e) {
+    //           e.printStackTrace();
+    //           return null;
+    //         }
+    //     }
+    // }
+    // public static class ProtoTradeDecode implements ScalarFunction {
+    //     public RecordValue.Trade eval(byte[] data) {
+    //         try {
+    //           var trade = RecordValue.Trade.parseFrom(data);
+    //           return trade;
+    //         } catch (InvalidProtocolBufferException e) {
+    //           e.printStackTrace();
+    //           return null;
+    //         }
+    //     }
+    // }
+    // public static class ProtoElixirInstrumentDecode implements ScalarFunction {
+    //     public RecordValue.ElixirInstrument eval(byte[] data) {
+    //         try {
+    //           var elixirInstrument = RecordValue.ElixirInstrument.parseFrom(data);
+    //           return elixirInstrument;
+    //         } catch (InvalidProtocolBufferException e) {
+    //           e.printStackTrace();
+    //           return null;
+    //         }
+    //     }
+    // }
+}
