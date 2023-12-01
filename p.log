@@ -1,0 +1,1913 @@
+Name:             .179c96cb4b6d2f18
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:15:59Z
+Involved Object:
+  API Version:   snapshot.storage.k8s.io/v1
+  Kind:          VolumeSnapshotContent
+Kind:            Event
+Last Timestamp:  2023-12-01T03:15:59Z
+Message:         Failed to check and update snapshot content: snapshot controller failed to update use-cache-41204224-a572-4a8d-82bd-19797a389c2e on API server: Operation cannot be fulfilled on volumesnapshotcontents.snapshot.storage.k8s.io "use-cache-41204224-a572-4a8d-82bd-19797a389c2e": the object has been modified; please apply your changes to the latest version and try again
+Metadata:
+  Creation Timestamp:  2023-12-01T03:15:59Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          csi-snapshotter
+    Operation:        Update
+    Time:             2023-12-01T03:15:59Z
+  Resource Version:   26585827
+  UID:                cd4be222-1eca-432f-99a8-f6c0f9f39642
+Reason:               SnapshotContentCheckandUpdateFailed
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-snapshotter diskplugin.csi.alibabacloud.com
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe7f44e04a7
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:36Z
+Message:             Pod vcluster-00/nginx-deployment-7bb44d575b-76tn8-x-default-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:24Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:24Z
+  Resource Version:   26585936
+  UID:                e8b5f405-9570-481b-9b24-feac579126a3
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe802f5d916
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:37Z
+Message:             Pod vcluster-00/nginx-deployment-7bb44d575b-b9nsb-x-default-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:25Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:25Z
+  Resource Version:   26585939
+  UID:                119cdf93-e95e-4be7-892c-9ceca798adc3
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe805594160
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:35Z
+Message:             Pod vcluster-00/nginx-deployment-7bb44d575b-p7jhr-x-default-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-06T04:15:14Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-06T04:15:14Z
+  Resource Version:   26585932
+  UID:                c5621cdd-54bf-4cea-be4d-1111f2730ce9
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe8145450e1
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:37Z
+Message:             Pod vcluster-00/nginx-deployment-7bb44d575b-tdz7w-x-default-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:25Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:25Z
+  Resource Version:   26585941
+  UID:                f2cfc812-4bc1-4665-872a-65e75efcd84c
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe817413958
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:38Z
+Message:             Pod vcluster-00/nginx-deployment-7bb44d575b-x5w2p-x-default-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:28Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:28Z
+  Resource Version:   26585946
+  UID:                cb0a8c11-f70a-4e88-9add-694eaa047e0b
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe8203b4edc
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            912
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:38Z
+Message:             Pod vcluster-00/nginx-deployment-855ccf6c5f-8wx4x-x-vcluster-00-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:26Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:26Z
+  Resource Version:   26585943
+  UID:                638fd6f6-fc1a-4a35-9c2c-be8baabd6088
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1790efe823985fba
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            2926
+Event Time:       <nil>
+First Timestamp:  2023-10-24T04:13:59Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:18:14Z
+Message:             (combined from similar events): Pod vcluster-00/coredns-56bfc489cf-k57tp-x-kube-system-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-06T04:15:16Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-06T04:15:16Z
+  Resource Version:   26585976
+  UID:                0e8fe6d3-ca10-4062-9566-2ea1430f2553
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1791834267f4ec11
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            866
+Event Time:       <nil>
+First Timestamp:  2023-10-26T01:14:15Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:39Z
+Message:             Pod vcluster-00/nginx-deployment-855ccf6c5f-dcf4s-x-vcluster-00-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:28Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:28Z
+  Resource Version:   26585948
+  UID:                fe39bd4c-c1d8-4d43-b8ef-e1b0b1fec1df
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1792518df2ea292c
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            803
+Event Time:       <nil>
+First Timestamp:  2023-10-28T16:14:39Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:40Z
+Message:             Pod vcluster-00/nginx-deployment-855ccf6c5f-ffs6c-x-vcluster-00-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-25T15:17:26Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-25T15:17:26Z
+  Resource Version:   26585952
+  UID:                2990b6b4-58d3-4de1-b870-c234396964c8
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1792b70ee8cdf2c3
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            773
+Event Time:       <nil>
+First Timestamp:  2023-10-29T23:14:44Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:17:39Z
+Message:             Pod vcluster-00/nginx-deployment-855ccf6c5f-ktzjt-x-vcluster-00-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-20T03:16:30Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-20T03:16:30Z
+  Resource Version:   26585950
+  UID:                9a1225f2-7e89-48c2-a702-edabda11fec4
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.17936088ddfc7f2f
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            721
+Event Time:       <nil>
+First Timestamp:  2023-11-01T03:00:25Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:01:57Z
+Message:             Pod vcluster-00/coredns-56bfc489cf-mkgzq-x-kube-system-x-vcluster-00: [add-namespace-cost-label-deny-00] fail
+Metadata:
+  Creation Timestamp:  2023-11-01T03:00:25Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-01T03:00:25Z
+  Resource Version:   26585325
+  UID:                a0ddfa7e-b9d9-4e2f-a8ff-d71ad089a8b6
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-scan
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-deny.1793759b7e50ea15
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            700
+Event Time:       <nil>
+First Timestamp:  2023-11-01T09:26:35Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-deny
+  Resource Version:  620318131
+  UID:               76983827-5bfc-4fb4-81bc-d321d5c7b692
+Kind:                Event
+Last Timestamp:      2023-12-01T03:30:13Z
+Message:             (combined from similar events): Pod default/prometheus-rw-kube-prometh-admission-create-vlsml: [add-namespace-cost-label-deny-00] fail (blocked)
+Metadata:
+  Creation Timestamp:  2023-11-29T09:09:17Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-11-29T09:09:17Z
+  Resource Version:   26586352
+  UID:                67f2c2c7-c9f1-455f-b6eb-6f0f05e8c497
+Reason:               PolicyViolation
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-admission
+Type:         Warning
+Events:       <none>
+
+
+Name:             add-namespace-cost-label-infra.179c0c15303c410c
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            7
+Event Time:       <nil>
+First Timestamp:  2023-11-29T08:54:04Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label-infra
+  Resource Version:  620318138
+  UID:               de19e4a7-f40d-4d09-ae98-80dd177d85f2
+Kind:                Event
+Last Timestamp:      2023-12-01T03:30:36Z
+Message:             Pod cattle-system/: pass
+Metadata:
+  Creation Timestamp:  2023-12-01T02:57:27Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-12-01T02:57:27Z
+  Resource Version:   26586373
+  UID:                755d95ac-ab3f-4334-a31a-42b0b383d97a
+Reason:               PolicyApplied
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-admission
+Type:         Normal
+Events:       <none>
+
+
+Name:             add-namespace-cost-label.179b6f762dc44cc3
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            10
+Event Time:       <nil>
+First Timestamp:  2023-11-27T09:03:57Z
+Involved Object:
+  API Version:       kyverno.io/v1
+  Kind:              ClusterPolicy
+  Name:              add-namespace-cost-label
+  Resource Version:  620318166
+  UID:               f81b9f19-d272-44b1-a60f-7243cf504d7b
+Kind:                Event
+Last Timestamp:      2023-12-01T03:33:25Z
+Message:             Pod monitoring/: pass
+Metadata:
+  Creation Timestamp:  2023-12-01T02:59:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kyverno
+    Operation:        Update
+    Time:             2023-12-01T02:59:50Z
+  Resource Version:   26586517
+  UID:                bd1ac3d7-cfc0-4175-85fe-5c1581a8ebdc
+Reason:               PolicyApplied
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  kyverno-admission
+Type:         Normal
+Events:       <none>
+
+
+Name:             autoscaler-5c5b48d5cf-wtc9v.179c5a7d23e43b61
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1122
+Event Time:       <nil>
+First Timestamp:  2023-11-30T08:50:52Z
+Involved Object:
+  API Version:       v1
+  Kind:              Pod
+  Name:              autoscaler-5c5b48d5cf-wtc9v
+  Namespace:         default
+  Resource Version:  880890611
+  UID:               6d08c34a-e2bd-4156-a8da-684510bc076d
+Kind:                Event
+Last Timestamp:      2023-12-01T03:31:52Z
+Message:             pod didn't trigger scale-up (it wouldn't fit if a new node is added): 5 node(s) didn't match node selector
+Metadata:
+  Creation Timestamp:  2023-11-30T08:50:52Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          cluster-autoscaler
+    Operation:        Update
+    Time:             2023-11-30T08:50:52Z
+  Resource Version:   26586474
+  UID:                c337fa86-905d-485a-a224-1a4a9b8aab92
+Reason:               NotTriggerScaleUp
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  cluster-autoscaler
+Type:         Normal
+Events:       <none>
+
+
+Name:             autoscaler-5c5b48d5cf-wtc9v.179c933566c0c29d
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+Action:           Scheduling
+API Version:      v1
+Event Time:       2023-12-01T02:10:16.805643Z
+First Timestamp:  <nil>
+Involved Object:
+  API Version:       v1
+  Kind:              Pod
+  Name:              autoscaler-5c5b48d5cf-wtc9v
+  Namespace:         default
+  Resource Version:  883178567
+  UID:               6d08c34a-e2bd-4156-a8da-684510bc076d
+Kind:                Event
+Last Timestamp:      <nil>
+Message:             0/28 nodes are available: 1 Too many pods, 1 node(s) had untolerated taint {virtual-kubelet.io/provider: alibabacloud}, 2 node(s) had untolerated taint {autoscaler: }, 2 node(s) had untolerated taint {ebpf-test-used: true}, 26 node(s) didn't match Pod's node affinity/selector. preemption: 0/28 nodes are available: 28 Preemption is not helpful for scheduling., 
+Metadata:
+  Creation Timestamp:  2023-12-01T02:10:16Z
+  Managed Fields:
+    API Version:  events.k8s.io/v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:action:
+      f:eventTime:
+      f:note:
+      f:reason:
+      f:regarding:
+      f:reportingController:
+      f:reportingInstance:
+      f:series:
+        .:
+        f:count:
+        f:lastObservedTime:
+      f:type:
+    Manager:          kube-scheduler
+    Operation:        Update
+    Time:             2023-12-01T02:35:24Z
+  Resource Version:   26586421
+  UID:                0fdffde3-447c-4135-930b-b2e579d61e86
+Reason:               FailedScheduling
+Reporting Component:  default-scheduler
+Reporting Instance:   default-scheduler-controlplane-ack-scheduler-688b956dc4-wqh95
+Series:
+  Count:               14
+  Last Observed Time:  2023-12-01T03:20:16.886911Z
+Source:
+Type:    Warning
+Events:  <none>
+
+
+Name:             autoscaler-5c5b48d5cf-wtc9v.179c974d28e562c3
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+Action:           Scheduling
+API Version:      v1
+Event Time:       2023-12-01T03:25:16.893598Z
+First Timestamp:  <nil>
+Involved Object:
+  API Version:       v1
+  Kind:              Pod
+  Name:              autoscaler-5c5b48d5cf-wtc9v
+  Namespace:         default
+  Resource Version:  883344510
+  UID:               6d08c34a-e2bd-4156-a8da-684510bc076d
+Kind:                Event
+Last Timestamp:      <nil>
+Message:             0/28 nodes are available: 1 Too many pods, 1 node(s) had untolerated taint {virtual-kubelet.io/provider: alibabacloud}, 2 node(s) had untolerated taint {autoscaler: }, 2 node(s) had untolerated taint {ebpf-test-used: true}, 26 node(s) didn't match Pod's node affinity/selector. preemption: 0/28 nodes are available: 28 Preemption is not helpful for scheduling., 
+Metadata:
+  Creation Timestamp:  2023-12-01T03:25:16Z
+  Managed Fields:
+    API Version:  events.k8s.io/v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:action:
+      f:eventTime:
+      f:note:
+      f:reason:
+      f:regarding:
+      f:reportingController:
+      f:reportingInstance:
+      f:type:
+    Manager:          kube-scheduler
+    Operation:        Update
+    Time:             2023-12-01T03:25:16Z
+  Resource Version:   26586212
+  UID:                641ad431-8312-4ef3-bfb0-af7dfb81d8ef
+Reason:               FailedScheduling
+Reporting Component:  default-scheduler
+Reporting Instance:   default-scheduler-controlplane-ack-scheduler-688b956dc4-wqh95
+Source:
+Type:    Warning
+Events:  <none>
+
+
+Name:             autoscaler-5c5b48d5cf-wtc9v.179c9793029f82f7
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+Action:           Scheduling
+API Version:      v1
+Event Time:       2023-12-01T03:30:16.899195Z
+First Timestamp:  <nil>
+Involved Object:
+  API Version:       v1
+  Kind:              Pod
+  Name:              autoscaler-5c5b48d5cf-wtc9v
+  Namespace:         default
+  Resource Version:  883354963
+  UID:               6d08c34a-e2bd-4156-a8da-684510bc076d
+Kind:                Event
+Last Timestamp:      <nil>
+Message:             0/28 nodes are available: 1 Too many pods, 1 node(s) had untolerated taint {virtual-kubelet.io/provider: alibabacloud}, 2 node(s) had untolerated taint {autoscaler: }, 2 node(s) had untolerated taint {ebpf-test-used: true}, 26 node(s) didn't match Pod's node affinity/selector. , preemption: 0/28 nodes are available: 28 Preemption is not helpful for scheduling.
+Metadata:
+  Creation Timestamp:  2023-12-01T03:30:16Z
+  Managed Fields:
+    API Version:  events.k8s.io/v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:action:
+      f:eventTime:
+      f:note:
+      f:reason:
+      f:regarding:
+      f:reportingController:
+      f:reportingInstance:
+      f:type:
+    Manager:          kube-scheduler
+    Operation:        Update
+    Time:             2023-12-01T03:30:16Z
+  Resource Version:   26586361
+  UID:                d8c64b4a-85c2-4f04-81b4-d0cde84641ef
+Reason:               FailedScheduling
+Reporting Component:  default-scheduler
+Reporting Instance:   default-scheduler-controlplane-ack-scheduler-688b956dc4-wqh95
+Source:
+Type:    Warning
+Events:  <none>
+
+
+Name:             etcd-data-etcd-0.178f617f19729344
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            249553
+Event Time:       <nil>
+First Timestamp:  2023-10-19T02:33:03Z
+Involved Object:
+  API Version:       v1
+  Kind:              PersistentVolumeClaim
+  Name:              etcd-data-etcd-0
+  Namespace:         default
+  Resource Version:  749530746
+  UID:               909bab54-f692-4045-a4a5-ce0b152e5a78
+Kind:                Event
+Last Timestamp:      2023-12-01T03:33:11Z
+Message:             waiting for a volume to be created, either by external provisioner "diskplugin.csi.alibabacloud.com" or manually created by system administrator
+Metadata:
+  Creation Timestamp:  2023-10-19T02:33:03Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kube-controller-manager
+    Operation:        Update
+    Time:             2023-10-19T02:33:03Z
+  Resource Version:   26586513
+  UID:                c95c9329-1d51-410c-a6ce-96bf4e3e7ea1
+Reason:               ExternalProvisioning
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  persistentvolume-controller
+Type:         Normal
+Events:       <none>
+
+
+Name:             etcd-data-etcd-0.178f617f19784046
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            16526
+Event Time:       <nil>
+First Timestamp:  2023-10-19T02:33:03Z
+Involved Object:
+  API Version:       v1
+  Kind:              PersistentVolumeClaim
+  Name:              etcd-data-etcd-0
+  Namespace:         default
+  Resource Version:  749530746
+  UID:               909bab54-f692-4045-a4a5-ce0b152e5a78
+Kind:                Event
+Last Timestamp:      2023-12-01T03:32:26Z
+Message:             External provisioner is provisioning volume for claim "default/etcd-data-etcd-0"
+Metadata:
+  Creation Timestamp:  2023-10-19T02:33:03Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          csi-provisioner
+    Operation:        Update
+    Time:             2023-10-19T02:33:03Z
+  Resource Version:   26586486
+  UID:                8138f38f-1a8f-4d31-875e-a2d8ccfb6f46
+Reason:               Provisioning
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  diskplugin.csi.alibabacloud.com_csi-provisioner-5dcc68cb88-q6rrs_3fca2eb0-f0aa-4bf0-910c-b28706143120
+Type:         Normal
+Events:       <none>
+
+
+Name:             prometheus-rw-kube-prometh-admission-create.179c0ce9bae45856
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            492
+Event Time:       <nil>
+First Timestamp:  2023-11-29T09:09:17Z
+Involved Object:
+  API Version:       batch/v1
+  Kind:              Job
+  Name:              prometheus-rw-kube-prometh-admission-create
+  Namespace:         default
+  Resource Version:  877780127
+  UID:               065bac60-fe50-4d13-bb8f-30607879a88c
+Kind:                Event
+Last Timestamp:      2023-12-01T03:30:13Z
+Message:             (combined from similar events): Error creating: admission webhook "validate.kyverno.svc-fail" denied the request: 
+
+policy Pod/default/prometheus-rw-kube-prometh-admission-create-vlsml for resource violation: 
+
+add-namespace-cost-label-deny:
+  add-namespace-cost-label-deny-00: label pod_owner/pod_product/pod_env/pod_role must
+    be set for accounting
+
+Metadata:
+  Creation Timestamp:  2023-11-29T09:09:17Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kube-controller-manager
+    Operation:        Update
+    Time:             2023-11-29T09:09:17Z
+  Resource Version:   26586353
+  UID:                5147e753-f027-4197-9d1e-85602815173d
+Reason:               FailedCreate
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  job-controller
+Type:         Warning
+Events:       <none>
+
+
+Name:             pulsar-bookkeeper-journal-pulsar-bookkeeper-0.17940a6c1be0c1ba
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            161537
+Event Time:       <nil>
+First Timestamp:  2023-11-03T06:53:38Z
+Involved Object:
+  API Version:       v1
+  Kind:              PersistentVolumeClaim
+  Name:              pulsar-bookkeeper-journal-pulsar-bookkeeper-0
+  Namespace:         default
+  Resource Version:  796506842
+  UID:               cd2e32a7-0b35-4a3e-8839-4b2c7ddf4666
+Kind:                Event
+Last Timestamp:      2023-12-01T03:33:41Z
+Message:             waiting for first consumer to be created before binding
+Metadata:
+  Creation Timestamp:  2023-11-03T06:53:38Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kube-controller-manager
+    Operation:        Update
+    Time:             2023-11-03T06:53:38Z
+  Resource Version:   26586530
+  UID:                75e02b60-1e66-4102-86bf-61a83505df9d
+Reason:               WaitForFirstConsumer
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  persistentvolume-controller
+Type:         Normal
+Events:       <none>
+
+
+Name:             pulsar-bookkeeper-ledgers-pulsar-bookkeeper-0.17940a6c1c1ebae7
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            161537
+Event Time:       <nil>
+First Timestamp:  2023-11-03T06:53:38Z
+Involved Object:
+  API Version:       v1
+  Kind:              PersistentVolumeClaim
+  Name:              pulsar-bookkeeper-ledgers-pulsar-bookkeeper-0
+  Namespace:         default
+  Resource Version:  796506844
+  UID:               5187d2e6-c098-46c7-8de9-a0c716145a3c
+Kind:                Event
+Last Timestamp:      2023-12-01T03:33:41Z
+Message:             waiting for first consumer to be created before binding
+Metadata:
+  Creation Timestamp:  2023-11-03T06:53:38Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kube-controller-manager
+    Operation:        Update
+    Time:             2023-11-03T06:53:38Z
+  Resource Version:   26586531
+  UID:                e5df89e8-a357-4e51-adb3-80b9e81b9d74
+Reason:               WaitForFirstConsumer
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  persistentvolume-controller
+Type:         Normal
+Events:       <none>
+
+
+Name:             pulsar-zookeeper-data-pulsar-zookeeper-0.17940a6c1c18b30b
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            161537
+Event Time:       <nil>
+First Timestamp:  2023-11-03T06:53:38Z
+Involved Object:
+  API Version:       v1
+  Kind:              PersistentVolumeClaim
+  Name:              pulsar-zookeeper-data-pulsar-zookeeper-0
+  Namespace:         default
+  Resource Version:  796506843
+  UID:               724d192d-435d-4573-a4ae-d287f29ea1d2
+Kind:                Event
+Last Timestamp:      2023-12-01T03:33:41Z
+Message:             waiting for first consumer to be created before binding
+Metadata:
+  Creation Timestamp:  2023-11-03T06:53:38Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          kube-controller-manager
+    Operation:        Update
+    Time:             2023-11-03T06:53:38Z
+  Resource Version:   26586529
+  UID:                8a0226e9-1c6f-4bd6-86f2-eb0fd274bbd2
+Reason:               WaitForFirstConsumer
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  persistentvolume-controller
+Type:         Normal
+Events:       <none>
+
+
+Name:             snapcontent-3c82b37e-1dca-43f5-9a84-507b261d1ce1.1783bcb875934e71
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            14785
+Event Time:       <nil>
+First Timestamp:  2023-09-11T04:09:45Z
+Involved Object:
+  API Version:       snapshot.storage.k8s.io/v1
+  Kind:              VolumeSnapshotContent
+  Name:              snapcontent-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+  Resource Version:  349759124
+  UID:               35606c3a-3f21-4f0c-8c53-6ca6fe19e659
+Kind:                Event
+Last Timestamp:      2023-12-01T03:24:50Z
+Message:             Failed to delete snapshot
+Metadata:
+  Creation Timestamp:  2023-09-11T04:09:45Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          csi-snapshotter
+    Operation:        Update
+    Time:             2023-09-11T04:09:45Z
+  Resource Version:   26586178
+  UID:                b11a2634-2d4c-424d-9abf-009cc9eb9f62
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-snapshotter diskplugin.csi.alibabacloud.com
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapcontent-78968e94-3d43-4017-a7f0-79d94b96c4c5.1783bcb87692e8f1
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            14785
+Event Time:       <nil>
+First Timestamp:  2023-09-11T04:09:45Z
+Involved Object:
+  API Version:       snapshot.storage.k8s.io/v1
+  Kind:              VolumeSnapshotContent
+  Name:              snapcontent-78968e94-3d43-4017-a7f0-79d94b96c4c5
+  Resource Version:  606416489
+  UID:               39f9419b-884b-4a25-8666-5a27e0a1a774
+Kind:                Event
+Last Timestamp:      2023-12-01T03:24:50Z
+Message:             Failed to delete snapshot
+Metadata:
+  Creation Timestamp:  2023-09-11T04:09:45Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          csi-snapshotter
+    Operation:        Update
+    Time:             2023-09-11T04:09:45Z
+  Resource Version:   26586181
+  UID:                8c44b232-281e-4c5e-a614-7e9608b6a7de
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-snapshotter diskplugin.csi.alibabacloud.com
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c94d2563e7314
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:39:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T02:39:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=16549036-7460-5EDE-88C0-A706630CB3A5
+RequestId: 16549036-7460-5EDE-88C0-A706630CB3A5
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:39:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:39:50Z
+  Resource Version:   26584437
+  UID:                41f2326b-8fa4-4486-be60-c09067e4da20
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c9555504384c4
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:49:12Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T02:49:12Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=F210DCBD-CF76-5529-B6FE-109FB58456CB
+RequestId: F210DCBD-CF76-5529-B6FE-109FB58456CB
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:49:12Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:49:12Z
+  Resource Version:   26584836
+  UID:                860cdea9-125b-4b77-bbd0-449c7727dabf
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c95a3e2e0ecd3
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:54:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T02:54:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=89F52AB2-30D9-538B-A094-FADD350430E9
+RequestId: 89F52AB2-30D9-538B-A094-FADD350430E9
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:54:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:54:50Z
+  Resource Version:   26585012
+  UID:                7154ffa4-2237-4b7d-b1dd-f4e297697883
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c963e2c35dcef
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:05:53Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T03:05:53Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=1A533DBB-BD79-55BA-B87E-0FFFEEFA7373
+RequestId: 1A533DBB-BD79-55BA-B87E-0FFFEEFA7373
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:05:53Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:05:53Z
+  Resource Version:   26585479
+  UID:                409bd9bd-b3cd-46ed-b39a-f43c61a47a32
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c967573446c4c
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:09:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T03:09:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=58185EDB-FDDC-56C4-8E6C-9F8CE2E2DBD8
+RequestId: 58185EDB-FDDC-56C4-8E6C-9F8CE2E2DBD8
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:09:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:09:50Z
+  Resource Version:   26585617
+  UID:                5efbf8b0-842f-42a1-9767-6409e4f75683
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c972707d34bd4
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:22:33Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T03:22:33Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=43FA1C62-BCBB-506F-B1A9-0877A7E99383
+RequestId: 43FA1C62-BCBB-506F-B1A9-0877A7E99383
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:22:33Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:22:33Z
+  Resource Version:   26586097
+  UID:                e311ee72-35a8-4f56-b0e4-aded2d3ad4b6
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1.179c9746fb10d14c
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:24:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-3c82b37e-1dca-43f5-9a84-507b261d1ce1
+Kind:            Event
+Last Timestamp:  2023-12-01T03:24:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=4AE23AEE-6F74-5C7E-9A4A-2FBD7EF05C89
+RequestId: 4AE23AEE-6F74-5C7E-9A4A-2FBD7EF05C89
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:24:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:24:50Z
+  Resource Version:   26586179
+  UID:                7bc22597-ce43-4acd-a564-55c625d3db73
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c94d2570b868f
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:39:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T02:39:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=23D6744F-B13C-5D60-A808-A4DDC20E105E
+RequestId: 23D6744F-B13C-5D60-A808-A4DDC20E105E
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:39:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:39:50Z
+  Resource Version:   26584438
+  UID:                1c7e69d6-38a4-4383-9e0e-984564722d21
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c95554ff4cd93
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:49:12Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T02:49:12Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=9577DCAD-89A3-59BD-9F12-914022E47B46
+RequestId: 9577DCAD-89A3-59BD-9F12-914022E47B46
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:49:12Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:49:12Z
+  Resource Version:   26584834
+  UID:                16903a30-4d75-46f4-8e78-08e26003bde0
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c95a3e2354a5a
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T02:54:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T02:54:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=37AD7236-312E-58DB-AEFA-96EBEA3F6CB9
+RequestId: 37AD7236-312E-58DB-AEFA-96EBEA3F6CB9
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T02:54:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T02:54:50Z
+  Resource Version:   26585011
+  UID:                cdee5989-f57d-4267-91a1-d1c513b3880f
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c963e2d48f095
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:05:53Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T03:05:53Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=3DB76643-3114-5719-AFD4-F5970B2DF885
+RequestId: 3DB76643-3114-5719-AFD4-F5970B2DF885
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:05:53Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:05:53Z
+  Resource Version:   26585480
+  UID:                37384302-05d1-43e1-b9fe-4a6237b4539c
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c96756e940e1b
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:09:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T03:09:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=EDE0F799-8539-57F0-9E1D-C0D54B7322FA
+RequestId: EDE0F799-8539-57F0-9E1D-C0D54B7322FA
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:09:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:09:50Z
+  Resource Version:   26585616
+  UID:                742d9f15-03db-46a6-a07b-0d82cf0b5bed
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c972709b4f718
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:22:33Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T03:22:33Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=9A93738D-1959-5823-893F-E9601CDA91F7
+RequestId: 9A93738D-1959-5823-893F-E9601CDA91F7
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:22:33Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:22:33Z
+  Resource Version:   26586099
+  UID:                6a0accfb-17ed-4b24-9fa1-e925b9d66dbc
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
+
+
+Name:             snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5.179c9746fb107099
+Namespace:        default
+Labels:           <none>
+Annotations:      <none>
+API Version:      v1
+Count:            1
+Event Time:       <nil>
+First Timestamp:  2023-12-01T03:24:50Z
+Involved Object:
+  Kind:          VolumeSnapshotContent
+  Name:          snapshot-78968e94-3d43-4017-a7f0-79d94b96c4c5
+Kind:            Event
+Last Timestamp:  2023-12-01T03:24:50Z
+Message:         rpc error: code = Internal desc = failed delete snapshot: SDK.ServerError
+ErrorCode: SnapshotCreatedDisk
+Recommend: https://api.aliyun.com/troubleshoot?q=SnapshotCreatedDisk&product=Ecs&requestId=93D9BC1A-13B7-5B6A-8253-CDB90EC358A6
+RequestId: 93D9BC1A-13B7-5B6A-8253-CDB90EC358A6
+Message: The snapshot has been used to create disk(s).
+Metadata:
+  Creation Timestamp:  2023-12-01T03:24:50Z
+  Managed Fields:
+    API Version:  v1
+    Fields Type:  FieldsV1
+    fieldsV1:
+      f:count:
+      f:firstTimestamp:
+      f:involvedObject:
+      f:lastTimestamp:
+      f:message:
+      f:reason:
+      f:source:
+        f:component:
+      f:type:
+    Manager:          plugin.csi.alibabacloud.com
+    Operation:        Update
+    Time:             2023-12-01T03:24:50Z
+  Resource Version:   26586180
+  UID:                341c783d-a385-4da1-95a1-3337723165d7
+Reason:               SnapshotDeleteError
+Reporting Component:  
+Reporting Instance:   
+Source:
+  Component:  csi-controller-server
+Type:         Warning
+Events:       <none>
