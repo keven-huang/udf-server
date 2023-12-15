@@ -140,8 +140,6 @@ public class ProtoDecodeUdf {
         }
     }
     public static class ProtoElixirInstrumentDecode implements ScalarFunction {
-        static Gson gson = new Gson();
-
         public static class Row {
           public String code;
           public Double[] data = new Double[0];
@@ -153,7 +151,7 @@ public class ProtoDecodeUdf {
           public Long eventTime;
           public Long logTime;
           public String[] columns = new String[0];
-          public String[] rows = new String[0];
+          public Row[] rows = new Row[0];
         }
         public elixirInstrument eval(byte[] data) {
             try {
@@ -166,16 +164,12 @@ public class ProtoDecodeUdf {
               elixirInstrumentData.logTime = elixirInstrument.getLogTime();
               elixirInstrumentData.columns = elixirInstrument.getColumnsList().toArray(new String[0]);
               int count = elixirInstrument.getRowsCount();
-              System.out.println("value" + count);
-              elixirInstrumentData.rows = new String[count];
-              // elixirInstrumentData.rows[0] = "1";
+              elixirInstrumentData.rows = new Row[count];
+
               for (int i = 0; i < count; ++i) {
-                var row = new Row(); 
-                row.code = elixirInstrument.getRows(i).getCode();
-                row.data = elixirInstrument.getRows(i).getDataList().toArray(new Double[0]);
-                var str = gson.toJson(row);
-                // System.out.println("i" + i + "length"+ elixirInstrumentData.rows.length);
-                elixirInstrumentData.rows[i] = str;
+                elixirInstrumentData.rows[i] = new Row(); 
+                elixirInstrumentData.rows[i].code = elixirInstrument.getRows(i).getCode();
+                elixirInstrumentData.rows[i].data = elixirInstrument.getRows(i).getDataList().toArray(new Double[0]);
               }
               return elixirInstrumentData;
             } catch (InvalidProtocolBufferException e) {
